@@ -1,0 +1,194 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 书本整体阴影 -->
+    <path
+        android:pathData="M54,26 C54,26 26,30 22,38 L22,76 C26,72 54,66 54,66 L54,26Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="26"
+                android:endX="38"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0" android:color="#40000000" />
+                <item android:offset="1" android:color="#10000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 书本左页 - 白色渐变 -->
+    <path
+        android:pathData="M54,24 C54,24 28,28 24,36 L24,74 C28,70 54,64 54,64 L54,24Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="54"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0" android:color="#FFFFFF" />
+                <item android:offset="1" android:color="#F0F4F8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 书本右页 - 浅蓝渐变 -->
+    <path
+        android:pathData="M54,24 C54,24 80,28 84,36 L84,74 C80,70 54,64 54,64 L54,24Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="24"
+                android:endX="84"
+                android:endY="74"
+                android:type="linear">
+                <item android:offset="0" android:color="#E8F4FD" />
+                <item android:offset="1" android:color="#D6EAF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 书脊高光 -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M53,24 L55,24 L55,64 L53,64Z" />
+    <!-- 书脊中线 -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M53.5,24 L54.5,24 L54.5,64 L53.5,64Z" />
+    <!-- 左页代码行 - 渐变蓝色 -->
+    <path
+        android:pathData="M32,40 L46,40 L46,41.5 L32,41.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:endX="46"
+                android:type="linear">
+                <item android:offset="0" android:color="#3B82F6" />
+                <item android:offset="1" android:color="#60A5FA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M32,45 L42,45 L42,46.5 L32,46.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:endX="42"
+                android:type="linear">
+                <item android:offset="0" android:color="#3B82F6" />
+                <item android:offset="1" android:color="#60A5FA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M32,50 L48,50 L48,51.5 L32,51.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:endX="48"
+                android:type="linear">
+                <item android:offset="0" android:color="#3B82F6" />
+                <item android:offset="1" android:color="#60A5FA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M32,55 L38,55 L38,56.5 L32,56.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:endX="38"
+                android:type="linear">
+                <item android:offset="0" android:color="#3B82F6" />
+                <item android:offset="1" android:color="#60A5FA" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 右页代码行 - 渐变青色 -->
+    <path
+        android:pathData="M62,40 L76,40 L76,41.5 L62,41.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:endX="76"
+                android:type="linear">
+                <item android:offset="0" android:color="#06B6D4" />
+                <item android:offset="1" android:color="#22D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M66,45 L76,45 L76,46.5 L66,46.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:endX="76"
+                android:type="linear">
+                <item android:offset="0" android:color="#06B6D4" />
+                <item android:offset="1" android:color="#22D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M60,50 L76,50 L76,51.5 L60,51.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="60"
+                android:endX="76"
+                android:type="linear">
+                <item android:offset="0" android:color="#06B6D4" />
+                <item android:offset="1" android:color="#22D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M70,55 L76,55 L76,56.5 L70,56.5Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="70"
+                android:endX="76"
+                android:type="linear">
+                <item android:offset="0" android:color="#06B6D4" />
+                <item android:offset="1" android:color="#22D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 代码括号 < > -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M36,60 L38,58 L38,59 L36.5,60 L38,61 L38,62Z" />
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M42,60 L40,58 L40,59 L41.5,60 L40,61 L40,62Z" />
+    <!-- 代码斜杠 / -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M68,58 L69,58 L66,62 L65,62Z" />
+    <!-- 顶部发光效果 -->
+    <path
+        android:pathData="M54,24 C54,24 28,28 24,36 L24,40 C28,32 54,28 54,28 C54,28 80,32 84,40 L84,36 C80,28 54,24 54,24Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="24"
+                android:endX="54"
+                android:endY="40"
+                android:type="linear">
+                <item android:offset="0" android:color="#40FFFFFF" />
+                <item android:offset="1" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 底部装饰点 -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M50,68 L52,68 L52,70 L50,70Z" />
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M54,68 L56,68 L56,70 L54,70Z" />
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M58,68 L60,68 L60,70 L58,70Z" />
+</vector>

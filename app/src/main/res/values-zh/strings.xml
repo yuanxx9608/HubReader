@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HubReader</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索仓库...</string>
+    <string name="trending">趋势</string>
+    <string name="explore">探索</string>
+    <string name="bookmarks">收藏</string>
+    <string name="settings">设置</string>
+    <string name="no_results">未找到结果</string>
+    <string name="no_bookmarks">暂无收藏</string>
+    <string name="no_bookmarks_hint">收藏仓库以在此保存</string>
+    <string name="error_loading">加载失败</string>
+    <string name="recent_searches">最近搜索</string>
+    <string name="popular_searches">热门搜索</string>
+    <string name="clear_history">清除历史</string>
+    <string name="delete_history">删除历史记录</string>
+    <string name="trending_title">趋势仓库</string>
+    <string name="no_trending_found">暂无趋势仓库</string>
+    <string name="repo_remove_bookmark">取消收藏</string>
+    <string name="repo_add_bookmark">添加收藏</string>
+    <string name="repo_forks_label">forks</string>
+    <string name="repo_open_issues">Issues</string>
+    <string name="time_range_today">今天</string>
+    <string name="time_range_week">本周</string>
+    <string name="time_range_month">本月</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_appearance">外观</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_dynamic_color">动态颜色（Android 12+）</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_english">English</string>
+    <string name="lang_chinese">中文</string>
+
+    <!-- 仓库详情 -->
+    <string name="repo_readme">项目说明</string>
+    <string name="repo_no_readme">暂无项目说明</string>
+    <string name="repo_loading">加载中...</string>
+    <string name="repo_stars">Stars</string>
+    <string name="repo_forks">Forks</string>
+    <string name="repo_watchers">Watchers</string>
+    <string name="explore_title">探索</string>
+    <string name="popular_languages">热门语言</string>
+    <string name="popular_topics">热门话题</string>
+    <string name="top_repositories">热门仓库</string>
+    <string name="no_category_repos">该分类下暂无仓库</string>
+    <string name="back">返回</string>
+</resources>

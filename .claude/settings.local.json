@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install *)",
+      "Bash(cp /tmp/openjdk17.msi \"D:/Programs/Project/AS/hubreader/openjdk17.msi\")",
+      "Bash(start /wait msiexec /i \"D:\\\\Programs\\\\Project\\\\AS\\\\hubreader\\\\openjdk17.msi\" ADDLOCAL=FeatureMain INSTALLDIR=\"D:\\\\Programs\\\\Java\\\\jdk-17\" /qn /norestart)",
+      "Bash(echo \"Exit code: $?\")",
+      "Read(//d/Programs/Java/jdk-17/bin/**)",
+      "Read(//d/Programs/**)",
+      "Read(//c/Program Files/**)",
+      "Bash(D:/Program Files/Android Studio/jbr/bin/java.exe *)",
+      "Bash(setx JAVA_HOME *)",
+      "Bash(export JAVA_HOME=\"D:/Program Files/Android Studio/jbr\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(java -version)",
+      "Bash(./gradlew assembleDebug --no-daemon)",
+      "Bash(./gradlew dependencies *)",
+      "Bash(./gradlew compileDebugKotlin)"
+    ]
+  }
+}
